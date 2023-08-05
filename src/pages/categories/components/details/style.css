@@ -1,0 +1,20 @@
+.buttonBack{
+    border:none;
+    font-size: 50px;
+    background-color: transparent;
+    margin-left: 40px;
+    color: rgb(93, 93, 93);
+    cursor: pointer;
+ }
+ .buttonBack:hover{
+     transform: scale(1.2);
+     color: rgb(33, 33, 33);
+ }
+ .details{
+     padding-top: 170px
+ }
+ .loading{
+    margin-left: 40px;
+    font-size: 25px;
+
+ }

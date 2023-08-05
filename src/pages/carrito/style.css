@@ -1,0 +1,104 @@
+.divCarrito{
+    padding-top: 170px;
+}
+.cartTitle{
+    color: rgb(62, 62, 62);
+   font-size: 60px;
+   font-family: 'Lexend Peta', sans-serif;
+   margin-top: 30px;
+   margin-left: 40px;
+}
+.cartImage{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    padding-left: 40px;
+}
+.cartItem{  
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 35px;
+    border-bottom: 2px solid rgba(50, 50, 50, 0.53);
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.cartContainer{
+   
+    margin-top: 40px;
+}
+
+.cartDescription{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+.cartName{
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.buttonCartSimbol{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 20px;
+}
+.buttonCartSimbol button{
+   width: 25px;
+   height: 25px;
+   background-color: white;
+   border-style: none;
+   border: 1px solid black;
+   cursor:pointer;
+}
+.buttonCartSimbol button:hover{
+    font-weight: bolder;
+    border:  2px solid black;
+}
+.cardButtonRemove{
+    background-color: white;
+    border-style: none;
+    border: 1px solid black;
+    cursor:pointer;
+    margin-top: 25px;
+    width: 100px;
+}
+.cardButtonRemove:hover{
+    font-weight: bolder;
+}
+.cartStock{
+    font-size: 12px;
+}
+.cartVacio{
+    padding: 100px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 3px;
+    margin-bottom: 250px;
+}
+.cartTotal{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    
+}
+.cartTotalTitle{
+    font-size: 25px;
+}
+.cartTotal button{
+    background-color: white;
+    border-style: none;
+    border: 1px solid black;
+    cursor:pointer;
+    width: 150px;
+    height: 40px;
+}
+.cartTotal button:hover{
+    font-weight: bolder;
+    border:  2px solid black;
+    font-size: 15px;
+}

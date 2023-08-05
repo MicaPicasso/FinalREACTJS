@@ -1,0 +1,32 @@
+.cardContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+  cursor: pointer;
+  height: 450px;
+}
+.imgCard{
+   max-width: 250px;
+   height: 350px;
+   margin-bottom: 20px;
+   object-fit: cover;
+}
+
+.descriptionCard h1, h2{
+   font-size: 17px;
+   text-transform: uppercase;
+}
+.descriptionCard h2{
+   font-weight: 400;
+}
+.descriptionCard{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 7px;
+}
+
+.cardContainer:hover{
+  border: 1px solid rgb(203, 203, 203);
+   
+}

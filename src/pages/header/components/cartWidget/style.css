@@ -1,0 +1,24 @@
+.cartWidget{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 4px;
+    font-size: 12px;
+    opacity: 50%;
+    padding-right: 40px;
+    cursor: pointer;
+  }
+  .cartWidget h1{
+    font-family: 'Zen Maru Gothic', sans-serif;
+  }
+
+  .icon-shopping{
+    width: 40px;
+    fill:white;
+  }
+  .cartWidget:hover{
+    color: black;
+  }
+  .cartWidget svg path:hover{
+    fill:black;
+  }

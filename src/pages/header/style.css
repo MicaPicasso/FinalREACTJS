@@ -1,0 +1,23 @@
+.header{
+    background-color: rgba(0, 0, 0, 0.258);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position:fixed;
+    width: 100%;
+    padding: 30px 0px;
+  }
+
+  .title-navBar{
+    font-size: 80px;
+    font-family: 'Lexend Peta', sans-serif;
+    text-decoration: none;
+    color: white;
+  } 
+  .title-navBar:hover{
+    color: rgb(55, 55, 55);
+  }
